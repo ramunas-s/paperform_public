@@ -102,7 +102,10 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+
+# Store .env in git for off-line execution
+#.env
+
 .venv
 env/
 venv/
@@ -144,6 +147,7 @@ credentials/*
 
 /logs/*
 
+test_data_files/labrep_recognizer/pdf_recognized
 
 !data/corpus
 !data/mapping

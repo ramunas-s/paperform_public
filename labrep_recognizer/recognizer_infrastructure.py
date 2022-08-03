@@ -28,13 +28,14 @@ class RecognizerInfrastructure:
         self.project_id = project_id
         self.ocr_abbyy_fr_engine_url = ocr_abbyy_fr_engine_url
         self.google_application_credentials = google_application_credentials
-        self.storage_client = storage.Client.from_service_account_json(self.google_application_credentials)
-        self.ocr_client = documentai.DocumentUnderstandingServiceClient.from_service_account_json(
-            self.google_application_credentials
-        )
-        self.secret_manager_client = secretmanager.SecretManagerServiceClient.from_service_account_json(
-            self.google_application_credentials
-        )
+        if self.google_application_credentials:
+            self.storage_client = storage.Client.from_service_account_json(self.google_application_credentials)
+            self.ocr_client = documentai.DocumentUnderstandingServiceClient.from_service_account_json(
+                self.google_application_credentials
+            )
+            self.secret_manager_client = secretmanager.SecretManagerServiceClient.from_service_account_json(
+                self.google_application_credentials
+            )
 
     def ocr_google(self, input_uri):
         google_document_ai_json = self._ocr_google_to_json(input_uri, "_ocr_google_to_json")

@@ -1,6 +1,7 @@
 import logging
 import sys
 from logging.handlers import TimedRotatingFileHandler
+from labrep_recognizer.shared.utils import make_dirs
 
 FORMATTER = logging.Formatter("%(asctime)s | %(name)s | %(levelname)s | %(message)s")
 LOG_FILE = "logs/labrep_recognizer.log"
@@ -20,6 +21,7 @@ def get_file_handler():
 
 
 def get_logger(logger_name):
+    make_dirs(LOG_FILE)
     logger = logging.getLogger(logger_name)
     logger.setLevel(LOG_LEVEL)  # better to have too much log than not enough
     logger.addHandler(get_console_handler())

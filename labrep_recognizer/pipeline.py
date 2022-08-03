@@ -198,19 +198,8 @@ def process_batch(input_dir, output_dir):
 
 
 def main():
-
-    # input_dir = "/Users/ramunas/projects/recognizer/temp/problem_2022-07-12"
-    # output_dir = "/Users/ramunas/projects/recognizer/temp/problem_2022-07-12_result"
-
-
-    # input_dir = "/Users/ramunas/projects/recognizer/paperform/data/survey/auto_recognition_pdf"
-    # output_dir = "/Users/ramunas/projects/recognizer/paperform/data/survey/auto_recognized"
-
-
-    input_dir = "/Users/ramunas/projects/recognizer/temp/problem_synlab_2022-07-13"
-    output_dir = "/Users/ramunas/projects/recognizer/temp/problem_synlab_2022-07-13_result"
-
-
+    input_dir = "./test_data_files/labrep_recognizer/pdf_examples"
+    output_dir = "./test_data_files/labrep_recognizer/pdf_recognized"
     process_batch(input_dir, output_dir)
 
 

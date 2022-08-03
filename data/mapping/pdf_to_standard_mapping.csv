@@ -1,0 +1,506 @@
+﻿test_type,test_name,units,code,units_conversion,multiplier,priority
+blood,NE%,###_survey_burnout_###,NE%,,1,1
+blood,MO%,###_survey_burnout_###,MO%,,1,1
+blood,LY%,###_survey_burnout_###,LY%,,1,1
+blood,EO%,###_survey_burnout_###,EO%,,1,1
+blood,WBC,###_survey_burnout_###,WBC,,1,1
+blood,RBC,###_survey_burnout_###,RBC,,1,1
+blood,Homocisteinas,μmol/l,Homocisteinas,,1,1
+blood,"Tirotropinas (TTH, TSH)",mU/L,TTH,,1,1
+blood,WBC (leukocitai),*10^9/L,WBC,,1,1
+blood,RBC (eritrocitai),*10^12/L,RBC,,1,1
+blood,Hgb (hemoglobinas),g/l,HGB,,1,1
+blood,MCV (vidutinis eritrocito tūris),fL,MCV,,1,1
+blood,MCHC (vidutinė hemoglobino koncentracija eritrocite),g/L,MCHC,,1,1
+blood,Plt (trombocitai),*10^9/L,PLT,,1,1
+blood,"Tireotropinis hormonas (TSH, TTH)",mIU/l,TTH,,1,1
+blood,Laisvas trijodtironinas LT3 (FT3),pmol/l,FT3,,1,1
+blood,Laisvas tiroksinas LT4 (FT4),pmol/l,FT4,,1,1
+blood,"Skydliaukės mikrosominiai antikūnai (MA, ATPO)",U/ml,ATPO,,1,1
+blood,Cholesterolis (CHOL),mmol/l,CHOL,,1,1
+blood,HDL (DTL) cholesterolis,mmol/l,HDL,,1,1
+blood,LDL (MTL) cholesterolis,mmol/l,LDL,,1,1
+blood,Trigliceridai (TG),mmol/l,TRIG,,1,1
+blood,Vitaminas D bendras (25-OH),nmol/l,VitD 25-OH,,1,1
+blood,WBC LEUKOCITAI,*10^9/l,WBC,,1,1
+blood,RBC ERITROCITAI,*10^12/l,RBC,,1,1
+blood,HGB HEMOGLOBINAS,g/l,HGB,,1,1
+blood,MCV Vidutinis eritrocitų tūris,fl,MCV,,1,1
+blood,MCHC Vidutinė eritrocitų hemoglobino koncentracija,g/l,MCHC,,1,1
+blood,PLT TROMBOCITAI,*10^9/l,PLT,,1,1
+blood,- vienetais pagal PSO 20/136,BAU/ml,Anti-SARS-CoV-2 IgM/IgG,,1,1
+blood,"Tirotropinas (TTH, TSH)",mIU/L,TTH,,1,1
+blood,TTH Tirotropinis hormonas,mIU/l,TTH,,1,1
+blood,GLU Gliukozės koncentracijos nustatymas plazmoje,mmol/l,GLU,,1,1
+blood,CHOL Bendras cholesterolis,mmol/l,CHOL,,1,1
+blood,DTL Didelio tankio lipoproteinų cholesterolis,mmol/l,HDL,,1,1
+blood,MTL Mažo tankio lipoproteinų cholesterolis,mmol/l,LDL,,1,1
+blood,TRIG Trigliceridai,mmol/l,TRIG,,1,1
+blood,WBC Leukocitai,*10e9/l,WBC,,1,1
+blood,RBC Eritrocitai,*10e12/l,RBC,,1,1
+blood,HGB Hemoglobinas,g/l,HGB,,1,1
+blood,MCV Vidutinis ląstelių tūris,fl,MCV,,1,1
+blood,MCHC Vidut. eritrocitų hemoglobino koncent.,g/l,MCHC,,1,1
+blood,PLT Trombocitai,*10e9/l,PLT,,1,1
+blood,TTH Tireotropinio hormono koncentracijos nustatymas,mIU/l,TTH,,1,1
+blood,PSA Prostatai specifinio antigeno koncentracijos nustatymas,μg/l,PSA,,1,1
+blood,VitD 25-OH Vitamino D koncentracijos nustatymas,μg/l,VitD 25-OH,TRUE,2.496,2
+blood,VitD 25-OH Vitamino D koncentracijos nustatymas,nmol/l,VitD 25-OH,,1,1
+blood,"Alaninaminotransferazė (GPT, ALT)",U/L,ALT,,1,1
+blood,"Aspartataminotransferazė (GOT, AST)",U/L,AST,,1,1
+blood,Bendras baltymas,g/L,Bendras baltymas,,1,1
+blood,Feritinas,μg/L,Feritinas,,1,1
+blood,Gliukozė,mmol/L,GLU,,1,1
+blood,Kreatininas,μmol/L,CREA,,1,1
+blood,Magnis,mmol/L,Magnis,,1,1
+blood,Vitaminas D bendras,nmol/L,VitD 25-OH,,1,1
+blood,Cholesterolis,mmol/L,CHOL,,1,1
+blood,DTL-cholesterolis,mmol/L,HDL,,1,1
+blood,MTL-cholesterolis,mmol/L,LDL,,1,1
+blood,Trigliceridai,mmol/L,TRIG,,1,1
+blood,FT4 Laisvas tiroksinas,pmol/l,FT4,,1,1
+blood,CREA Kreatinino koncentracijos nustatymas,μmol/l,CREA,,1,1
+blood,WBC LEUKOCITAI,*10^9/I,WBC,,1,1
+blood,GLU Gliukozė,mmol/l,GLU,,1,1
+blood,CREA Kreatininas,μmol/l,CREA,,1,1
+blood,ASAT Aspartataminotransferazė,U/l,AST,,1,1
+blood,ALAT Alaninaminotransferazė,U/l,ALT,,1,1
+blood,GLU Gliukozė serume,mmol/l,GLU,,1,1
+blood,WBC (leukocitai),10^9/l,WBC,,1,1
+blood,RBC (eritrocitai),10^12/l,RBC,,1,1
+blood,HGB (hemoglobinas),g/l,HGB,,1,1
+blood,MCV (vidutinis eritrocito tūris),fl,MCV,,1,1
+blood,MCHC (vidutinė hemoglobino koncentracija eritrocituose),g/l,MCHC,,1,1
+blood,PLT (trombocitai),10^9/l,PLT,,1,1
+blood,Gliukozė (GLU) serume,mmol/l,GLU,,1,1
+blood,Alaninaminotransferazė (ALT),U/l (x0.0167=μkat/l),ALT,,1,1
+blood,Aspartataminotransferazė (AST),U/l (x0.0167=μkat/l),AST,,1,1
+blood,Kreatininas (CREA),-) mol/l,CREA,,1,1
+blood,Šarminė fosfatazė (ALP),U/l (x0.0167=μkat/l),ALP,,1,1
+blood,Gama gliutamiltransferazė (GGT),U/l (x0.0167=μkat/l),GGT,,1,1
+blood,GLU (gliukozė),mmol/l,GLU,,1,1
+blood,BA (bazofilai),10^9/l,BA,,1,1
+blood,BASO (bazofilai skaičius),*10^9/L,BA,,1,1
+blood,BASO (bazofilai skaičius),*10^9/l,BA,,1,1
+blood,BASOc Bazofilai,*10^9/l,BA,,1,1
+blood,Bazofilai (BASO#),10*9/L,BA,,1,1
+blood,% BASO (bazofilai procentas),%,BA%,,1,1
+blood,BA% (bazofilai %),%,BA%,,1,1
+blood,BASOp Bazofilai,%,BA%,,1,1
+blood,Bazofilai (BASO%),%,BA%,,1,1
+blood,EO (eozinofilai skaičius),*10^9/L,EO,,1,1
+blood,EO (eozinofilai skaičius),*10^9/l,EO,,1,1
+blood,EO (eozinofilai),10^9/l,EO,,1,1
+blood,EOSc Eozinofilai,*10^9/l,EO,,1,1
+blood,Eozinofilai (EOS#),10*9/L,EO,,1,1
+blood,% EO (eozinofilai procentas),%,EO%,,1,1
+blood,EO% (eozinofilai %),%,EO%,,1,1
+blood,EOSp Eozinofilai,%,EO%,,1,1
+blood,Eozinofilai (EOS%),%,EO%,,1,1
+blood,HCT (hematokritas),%,HCT,,1,1
+blood,Hct (hematokritas),%,HCT,,1,1
+blood,HCT Hematokritas,%,HCT,,1,1
+blood,Hematokritas (HCT),%,HCT,,1,1
+blood,Hemoglobinas (HGB),g/L,HGB,,1,1
+blood,IG (nebrandūs granulocitai),10^9/l,IG,,1,1
+blood,IG (nesubrendę granulocitai skaičius),10^9/L,IG,,1,1
+blood,IG (nesubrendę granulocitai skaičius),10^9/l,IG,,1,1
+blood,IG# Nebrandus granuliocitai,*10^9/l,IG,,1,1
+blood,Nesubrendę granulocitai (IG#),10*9/l,IG,,1,1
+blood,% IG (nesubrendę granulocitai procentas),%,IG%,,1,1
+blood,IG (nebrandūs granulocitai %),%,IG%,,1,1
+blood,IG% Nebrandus granuliocitai,%,IG%,,1,1
+blood,Nesubrendę granulocitai (IG%),%,IG%,,1,1
+blood,Limfocitai (LYMPH#),10*9/L,LY,,1,1
+blood,LY (limfocitai),10^9/l,LY,,1,1
+blood,LYMc Limfocitai,*10^9/l,LY,,1,1
+blood,LYMPH (limfocitai skaičius),10^9/L,LY,,1,1
+blood,LYMPH (limfocitai skaičius),10^9/l,LY,,1,1
+blood,% LYMPH (limfocitai procentas),%,LY%,,1,1
+blood,Limfocitai (LYMPH%),%,LY%,,1,1
+blood,LY% (limfocitai %),%,LY%,,1,1
+blood,LYMp Limfocitai,%,LY%,,1,1
+blood,MCH (vidutinis eritrocitų hemoglobinas),pg,MCH,,1,1
+blood,MCH (vidutinis hemoglobino kiekis eritrocite),pg,MCH,,1,1
+blood,MCH Vidutinis hemoglobino kiekis eritrocite,pg,MCH,,1,1
+blood,Vidut.hemogl. kiekis erit. (MCH),pg,MCH,,1,1
+blood,Hemogl. koncentrac. eritrocite (MCHC),g/L,MCHC,,1,1
+blood,Eritrocitų vid.tūris (MCV),fL,MCV,,1,1
+blood,MO (monocitai),10^9/l,MO,,1,1
+blood,MONO (monocitai skaičius),10^9/L,MO,,1,1
+blood,MONO (monocitai skaičius),10^9/l,MO,,1,1
+blood,MONOc Monocitai,*10^9/l,MO,,1,1
+blood,Monocitai (MONO#),10*9/L,MO,,1,1
+blood,% MONO (monocitai procentas),%,MO%,,1,1
+blood,MO% (monocitai %),%,MO%,,1,1
+blood,Monocitai (MONO%),%,MO%,,1,1
+blood,MONOp Monocitai,%,MO%,,1,1
+blood,MPV (vidutinis trombocitų tūris),fl,MPV,,1,1
+blood,MPV (vidutinis trombocitų tūris),fL,MPV,,1,1
+blood,MPV Trombocitų vidutinis tūris,fl,MPV,,1,1
+blood,Vid.tromboc.tūris (MPV),fL,MPV,,1,1
+blood,NE (neutrofilai),10^9/l,NE,,1,1
+blood,NEUT (neutrofilai skaičius),*10^9/L,NE,,1,1
+blood,NEUT (neutrofilai skaičius),*10^9/l,NE,,1,1
+blood,NEUTc Neutrofilai,*10^9/l,NE,,1,1
+blood,Neutrofilai (NEUT#),10*9/L,NE,,1,1
+blood,% NEUT (neutrofilai procentas),%,NE%,,1,1
+blood,NE% (neutrofilai %),%,NE%,,1,1
+blood,NEUTp Neutrofilai,%,NE%,,1,1
+blood,Neutrofilai (NEUT%),%,NE%,,1,1
+blood,NRBC# Branduolėti eritrocitai,*10^9/l,NRBC,,1,1
+blood,NRBC% Branduolėti eritrocitai,%,NRBC%,,1,1
+blood,Didelių trombocitų frakcija (P-LCR),%,P-LCR,,1,1
+blood,P-LCR (didelių trombocitų santykis),%,P-LCR,,1,1
+blood,P-LCR Didelių trombocitų frakcija,%,P-LCR,,1,1
+blood,PCT (trombokritas),%,PCT,,1,1
+blood,PCT Trombokritas,%,PCT,,1,1
+blood,Trombocitų kritas (PCT),%,PCT,,1,1
+blood,PDW (trombocitų pasiskirstymo plotis),fL,PDW,,1,1
+blood,PDW Trombocitų pasiskirstymo plotis,fl,PDW,,1,1
+blood,PDWTrombocitu pasiskirstymo plotis,fl,PDW,,1,1
+blood,Trombocitų pasiskirstymo plotis (PDW),fL,PDW,,1,1
+blood,Plt (trombocitai),*10^9/l,PLT,,1,1
+blood,Trombocitai (PLT),10*9/L,PLT,,1,1
+blood,Eritrocitai (RBC),10*12/L,RBC,,1,1
+blood,RBC (eritrocitai),*10^12/l,RBC,,1,1
+blood,Eritrocitų pasiskirstymo plotis (RDW-CV),%,RDW-CV,,1,1
+blood,RDW (eritrocitų pasiskirstymas pagal dydį),%,RDW-CV,,1,1
+blood,"RDW-CV (eritrocitų pasiskirstymo plotis, koreliacijos koeficientas)",%,RDW-CV,,1,1
+blood,RDW-CV Eritrocitų pasiskirstymo plotis,%,RDW-CV,,1,1
+blood,RDW-CV Eritrocitų pasiskirstymo plotis (variacijos koeficientas),%,RDW-CV,,1,1
+blood,Eritrocitų pasiskirstymo plotis (RDW-SD),fL,RDW-SD,,1,1
+blood,"RDW-SD (eritrocitų pasiskirstymo plotis, standartinis nuokrypis)",fL,RDW-SD,,1,1
+blood,RDW-SD Eritrocitų pasiskirstymo plotis,fl,RDW-SD,,1,1
+blood,RDW-SD Eritrocitų pasiskirstymo plotis (standartinis nuokrypis),fl,RDW-SD,,1,1
+blood,Leukocitai (WBC),10*9/L,WBC,,1,1
+blood,WBC (leukocitai),*10^9/l,WBC,,1,1
+blood,NEUT Neutrofilai,%,NE%,,1,1
+blood,MONO Monocitai,%,MO%,,1,1
+blood,LYMPH Limfocitai,%,LY%,,1,1
+blood,EOS Eozinofilai,%,EO%,,1,1
+blood,Eritrocitai (RBC),*10A12/L,RBC,,1,1
+blood,Leukocitai (WBC),*10^9Λ,WBC,,1,1
+blood,Neutrofilai proc. NE %,%,NE%,,1,1
+blood,Eozinofilai proc. EO %,%,EO%,,1,1
+blood,Limfocitai proc. LY %,%,LY%,,1,1
+blood,Monocitai proc. MO %,%,MO%,,1,1
+blood,Leukocitai (WBC),10*9∕L,WBC,,1,1
+blood,Eritrocitai (RBC),10*12∕L,RBC,,1,1
+blood,Neutrofilai (NEUT%),%,NE%,,1,1
+blood,Limfocitai (LYMPH%),%,LY%,,1,1
+blood,Monocitai (MONO%),%,MO%,,1,1
+blood,Eozinofilai (EOS%),%,EO%,,1,1
+blood,Eritrocitai (RBC),10^12^,RBC,,1,1
+blood,Leukocitai (WBC),10^9^,WBC,,1,1
+blood,Neutrofilai (NEU%),%,NE%,,1,1
+blood,Monocitai (MON%),%,MO%,,1,1
+blood,Eozinofilai (EOS%),%,EO%,,1,1
+blood,Limfocitai (LYM%),%,LY%,,1,1
+blood,Eritrocitai (RBC),10^12∕l,RBC,,1,1
+blood,Leukocitai (WBC),10^9∕l,WBC,,1,1
+blood,Neutrofilai (NEU%),%,NE%,,1,1
+blood,Monocitai (MON%),%,MO%,,1,1
+blood,Eozinofilai (EOS%),%,EO%,,1,1
+blood,Limfocitai (LYM%),%,LY%,,1,1
+blood,Eritrocitai (RBC),10^12∕l,RBC,,1,1
+blood,Leukocitai (WBC),10^9∕l,WBC,,1,1
+blood,Neutrofilai (NEU%),%,NE%,,1,1
+blood,Monocitai (MON%),%,MO%,,1,1
+blood,Eozinofilai (EOS%),%,EO%,,1,1
+blood,Limfocitai (LYM%),%,LY%,,1,1
+blood,Eritrocitai RBC,1012∕l,RBC,,1,1
+blood,Leukocitai WBC,10’/l,WBC,,1,1
+blood,Neutrofilai NEU%,%,NE%,,1,1
+blood,Limfocitai LYM%,%,LY%,,1,1
+blood,Monocitai MON%,%,MO%,,1,1
+blood,Eozinofilai EOS%,%,EO%,,1,1
+blood,Neutrofilai,%,NE%,,1,1
+blood,Limfocitai,%,LY%,,1,1
+blood,Monocitai,%,MO%,,1,1
+blood,Eozinofilai,%,EO%,,1,1
+blood,Leukocitai,10^9∕l,WBC,,1,1
+blood,Eritrocitai,10^12∕l,RBC,,1,1
+blood,WBC ,* 10A9/l,WBC,,1,1
+blood,NEU ,%,NE%,,1,1
+blood,LYM ,%,LY%,,1,1
+blood,MON ,%,MO%,,1,1
+blood,EOS ,%,EO%,,1,1
+blood,RBC ,*10*12/1,RBC,,1,1
+blood,Leuk.,10^9/L,WBC,,1,1
+blood,Erit.,10^12/L,RBC,,1,1
+blood,Neutr. %,%,NE%,,1,1
+blood,Limf %,%,LY%,,1,1
+blood,Monoc. %,%,MO%,,1,1
+blood,Eozin. %,%,EO%,,1,1
+blood,K Kalio koncentracijos nustatymas,mmol/l,K,,1,1
+blood,BASO Bazofilai,%,BA%,,1,1
+blood,BASO Bazofilai,*10e9/l,BA,,1,1
+blood,EOS Eozinofilai,*10e9/l,EO,,1,1
+blood,FER Feritino koncentracijos nustatymas,μg/l,Feritinas,,1,1
+blood,LUC,%,LUC%,,1,1
+blood,LUC,*10e9/l,LUC,,1,1
+blood,LYMPH Limfocitai,*10e9/l,LY,,1,1
+blood,MCH Vidutinis eritrocitų hemoglobino kiekis,pg,MCH,,1,1
+blood,MONO Monocitai,*10e9/l,MO,,1,1
+blood,MTL Mažo tankio lipoproteinų cholesterolio koncentracijos nustatymas,mmol/l,LDL,,1,1
+blood,NEUT Neutrofilai,*10e9/l,NE,,1,1
+blood,RDW,%,RDW-CV,,1,1
+blood,TRIG Trigliceridų koncentracijos nustatymas,mmol/l,TRIG,,1,1
+blood,ALAT Alaninaminotransferazės aktyvumo nustatymas,U/l,ALT,,1,1
+blood,ALP Šarminės fosfatazės aktyvumo nustatymas,U/l,ALP,,1,1
+blood,ASAT Aspartataminotransferazės aktyvumo nustatymas,U/l,AST,,1,1
+blood,CHOL Bendro cholesterolio koncentracijos nustatymas,mmol/l,CHOL,,1,1
+blood,DTL Didelio tankio lipoproteinų cholesterolio koncentracijos nustatymas,mmol/l,HDL,,1,1
+blood,GGT Gamaglutamiltransferazės aktyvumo nustatymas,U/l,GGT,,1,1
+blood,GLU Gliukozės koncentracijos nustatymas serume,mmol/l,GLU,,1,1
+blood,Ca Kalcio koncentracijos nustatymas,mmol/l,Ca,,1,1
+blood,Mg Magnio koncentracijos nustatymas,mmol/l,Magnis,,1,1
+blood,Na Natrio koncentracijos nustatymas,mmol/l,Na,,1,1
+blood,TBIL Bendrojo bilirubino koncentracijos nustatymas,μmol/l,DBIL,,1,1
+blood,UREA Šlapalo koncentracijos nustatymas,mmol/l,UREA,,1,1
+blood,2019-nCov igG (S1 RBD) Antikūnai igG prieš SARS-CoV-2,U/ml,2019-nCov igG (S1 RBD) Antikūnai igG prieš SARS-CoV-2,,1,1
+blood,ATPO Skydliaukės peroksidazės antikūnų koncentracijos nustatymas,U/ml,ATPO,,1,1
+blood,C-reaktyvus baltymas (CRB) (cito),mg/L,CRB,,1,1
+blood,CEA Karcinoembrioninio antigeno koncentracijos nustatymas,μg/l,CEA,,1,1
+blood,CRB C reaktyviojo baltymo nustatymas,mg/l,CRB,,1,1
+blood,CRB C reaktyvus baltymas,mg/l,CRB,,1,1
+blood,Cl Chloridų kiekio nustatymas,mmol/l,Cl,,1,1
+blood,DBIL Tiesioginio,μmol/l,DBIL,,1,1
+blood,HCT Hematokritas,% ,HCT,,1,1
+blood,LT4 Laisvo tiroksino koncentracijos nustatymas,μmol/l,FT4,,1,1
+blood,LUC % (kitos netipinės ląstelės %),%,LUC%,,1,1
+blood,LUC (kitos netipinės ląstelės),10^9/l,LUC,,1,1
+blood,TP Bendro baltymo koncentracijos nustatymas,g/l,Bendras baltymas,,1,1
+blood,djCRB Didelio jautrumo CRB koncentracijos nustatymas,mg/l,CRB,,1,1
+blood,ŽIV 1/2 antikūnų ir antigeno p24 nustatymas,s/co,ŽIV 1/2 antikūnų ir antigeno p24 nustatymas,,1,1
+blood,ALAT Alaninaminotransferazės aktyvumo nustatymas,U/I,ALT,,1,1
+blood,ASAT Aspartataminotransferazės aktyvumo nustatymas,U/I,AST,,1,1
+blood,Aterogeniškumo indeksas,Aterogeniškumo indeksas,Aterogeniškumo indeksas,,1,1
+blood,BASOc Bazofilai,*10^9/l ,BA,,1,1
+blood,BASOp Bazofilai,% ,BA%,,1,1
+blood,Ca 72-4 Karbohidratinis antigenas 72-4,U/ml ,CA 72-4,,1,1
+blood,ENG (eritrocitų nusėdimo greitis),mm/h,ENG,,1,1
+blood,EO (eozinofilai),10^,EO,,1,1
+blood,EOSc Eozinofilai,*10^9/l ,EO,,1,1
+blood,EOSp Eozinofilai,% ,EO%,,1,1
+blood,Eritrocitų nusėdimo greitis,mm/val,ENG,,1,1
+blood,GFG Glomerulų filtracijos greitis,ml/min,GFG,,1,1
+blood,HGB HEMOGLOBINAS,g/l ,HGB,,1,1
+blood,IBIL Bilirubinas netiesioginis,μmol/l,IBIL,,1,1
+blood,IG# Nebrandus granuliocitai,*10^9/l ,IG,,1,1
+blood,IG% Nebrandus granuliocitai,% ,IG%,,1,1
+blood,LIP Lipazės aktyvumo nustatymas,U/l,LIP,,1,1
+blood,LT3 Laisvo trjodtironino koncentracijos nustatymas,μmol/l,FT3,,1,1
+blood,LYMc Limfocitai,*10^9/l ,LY,,1,1
+blood,LYMp Limfocitai,% ,LY%,,1,1
+blood,MCH Vidutinis hemoglobino kiekis eritrocite,pg ,MCH,,1,1
+blood,MCHC Vidutinė eritrocitų hemoglobino koncentracija,g/l ,MCHC,,1,1
+blood,MCV Vidutinis eritrocitų tūris,fl ,MCV,,1,1
+blood,MONOc Monocitai,*10^9/l ,MO,,1,1
+blood,MONOp Monocitai,% ,MO%,,1,1
+blood,MPV Trombocitų vidutinis tūris,fl ,MPV,,1,1
+blood,NEUTc Neutrofilai,*10^9/l ,NE,,1,1
+blood,NEUTp Neutrofilai,% ,NE%,,1,1
+blood,NRBC# Branduolėti eritrocitai,*10^9/l ,NRBC,,1,1
+blood,NRBC% Branduolėti eritrocitai,% ,NRBC%,,1,1
+blood,P-AMYL Kasos amilazės aktyvumo nustatymas,U/l,P-AMYL,,1,1
+blood,P-LCR Didelių trombocitų frakcija,% ,P-LCR,,1,1
+blood,PCT Trombokritas,% ,PCT,,1,1
+blood,PDWTrombocitu pasiskirstymo plotis,fl ,PDW,,1,1
+blood,PLT TROMBOCITAI,*10^9/l ,PLT,,1,1
+blood,RBC ERITROCITAI,*10^12/l ,RBC,,1,1
+blood,RDW-CV Eritrocitų pasiskirstymo plotis,% ,RDW-CV,,1,1
+blood,RDW-SD Eritrocitų pasiskirstymo plotis,fl ,RDW-SD,,1,1
+blood,Vėžio žymens CA 125 koncentracijos nustatymas,U/ml,CA 125,,1,1
+blood,Vėžio žymens CA 15-3 koncentracijos nustatymas,U/ml,CA 15-3,,1,1
+blood,Vėžio žymens CA 19-9 koncentracijos nustatymas,U/ml,CA 19-9,,1,1
+blood,WBC LEUKOCITAI,*10^9/l ,WBC,,1,1
+blood,2019-nCov igG (S1 RBD) Antikūnai igG prieš SARS-CoV-2,AU/ml,2019-nCov igG (S1 RBD) Antikūnai igG prieš SARS-CoV-2,,1,1
+blood,AB12 Aktyvus vitaminas B12,pmol/l,B12,,1,1
+blood,AFP a fetoproteino koncentracijos nustatymas,lU/ml ,AFP,,1,1
+blood,ALAT Alaninaminotransferazės aktyvumo nustatymas,U/l ,ALT,,1,1
+blood,ALB Albumino koncentracijos nustatymas,g/l,ALB,,1,1
+blood,ALB Albumino koncentracijos nustatymas,g/l ,ALB,,1,1
+blood,ALP Šarminės fosfatazės aktyvumo nustatymas,U/l ,ALP,,1,1
+blood,ALT Alanininė aminotransferazė,U/l,ALT,,1,1
+blood,ASAT Aspartataminotransferazės aktyvumo nustatymas,U/l ,AST,,1,1
+blood,AST Asparagininė aminotransferazė,U/l,AST,,1,1
+blood,ATPO Skydliaukės peroksidazės antikūnų koncentracijos nustatymas,U/ml ,ATPO,,1,1
+blood,Aktyvuotas dalinis tromboplastininis laikas ADTL (DATL),s,ADTL,,1,1
+blood,Anti - HCV (Antikūnai prieš hepatitą C),cut off - index,Anti - HCV,,1,1
+blood,Aterogeniškumo indeksas ,,Aterogeniškumo indeksas,,1,1
+blood,BASO Bazofilai,% ,BA%,,1,1
+blood,BASO Bazofilai,*10e9/l ,BA,,1,1
+blood,Bazofilai,%,BA%,,1,1
+blood,Bilirubinas bendras,μmol/l,BIL,,1,1
+blood,Bilirubinas tiesioginis,μmol/l,DBIL,,1,1
+blood,Blastai,%,Blastai,,1,1
+blood,CA 19-9 (kasos vėžio žymuo),kU/L,CA 19-9,,1,1
+blood,CEA Karcinoembrioninio antigeno koncentracijos nustatymas,μg/l ,CEA,,1,1
+blood,CHOL Bendro cholesterolio koncentracijos nustatymas,mmol/l ,CHOL,,1,1
+blood,CHOL Bendro cholesterolio koncentracjos nustatymas,mmol/l,CHOL,,1,1
+blood,CHOL Cholesterolis bendras,mmol/l,CHOL,,1,1
+blood,CI Chloridų kiekio nustatymas,mmol/l ,Cl,,1,1
+blood,CK Kreatinkinazės aktyvumo nustatymas,U/l ,CK,,1,1
+blood,CRB - C reaktyvus baltymas (CRP),mg/l,CRB,,1,1
+blood,CRB C reaktyvus baltymas,mg/l ,CRB,,1,1
+blood,Ca Kalcio koncentracijos nustatymas,mmol/l ,Ca,,1,1
+blood,Ca++ Jonizuotas kalcis,mmol/l ,Ca++,,1,1
+blood,Cak koreguotas kalcis ,,Cak,,1,1
+blood,Chloras,mmol/l,Cl,,1,1
+blood,Cu Varis,μmol/l,Cu,,1,1
+blood,Cu Varis ,μmol/l ,Cu,,1,1
+blood,DBIL Tiesioginio,μmol/l ,DBIL,,1,1
+blood,DTL Didelio tankio lipoproteinų cholesterolio koncentracijos nustatymas,mmol/l ,HDL,,1,1
+blood,DTL Didelio tankio lipoproteinų cholesterolio koncentracjos nustatymas,mmol/l,HDL,,1,1
+blood,EOS Eozinofilai,% ,EO%,,1,1
+blood,EOS Eozinofilai,*10e9/l ,EO,,1,1
+blood,FER Feritino koncentracijos nustatymas,μg/l ,Feritinas,,1,1
+blood,FER Feritino koncentracjos nustatymas,μg/l,Feritinas,,1,1
+blood,FOL Folio rūgšties koncentracijos nustatymas,nmol/l,FOL,,1,1
+blood,FT3 Laisvas trjodtironinas,pmol/l ,FT3,,1,1
+blood,FT4 Laisvas tiroksinas,pmol/l ,FT4,,1,1
+blood,Fe Geležies koncentracijos nustatymas,μmol/l,Fe,,1,1
+blood,Fe Geležies koncentracjos nustatymas,μmol/l,Fe,,1,1
+blood,Fibrinogenas,g/l,Fibrinogenas,,1,1
+blood,GFG Glomerulų filtracijos greitis,ml/min ,GFG,,1,1
+blood,GGT Gamaglutamiltransferazės aktyvumo nustatymas,U/l ,GGT,,1,1
+blood,GLU Gliukozė plazmoje,mmol/l,GLU,,1,1
+blood,Gamaglutamiltransferazė (GGT),U/L,GGT,,1,1
+blood,Gliukozė,mmol/l,GLU,,1,1
+blood,"Gliukozė (GLU) serume				",mmol/l,GLU,,1,1
+blood,Gliukozė (plazmoje),mmol/L,GLU,,1,1
+blood,H. Pylori antikūnų IgG nustatymas,U/ml ,H. Pylori antikūnų IgG nustatymas,,1,1
+blood,HBsAg (Hepatito B paviršinis antigenas),Indeksas,HBsAg,,1,1
+blood,HBsAg Hepatito B viruso,index ,HBsAg,,1,1
+blood,HCT (hematokritas),l/l,HCT,,1,1
+blood,HGB HEMOGLOBINAS,gZl,HGB,,1,1
+blood,HGB Hemoglobinas,g/l ,HGB,,1,1
+blood,HP-Ag Helicobacter pylori antigenas išmatose ,,HP-Ag,,1,1
+blood,IBIL Bilirubinas netiesioginis,μmol/l ,IBIL,,1,1
+blood,IgE Bendro imunoglobulino E koncentracijos nustatymas,kU/l,IgE,,1,1
+blood,IgE Bendro imunoglobulino E koncentracijos nustatymas,kU/l ,IgE,,1,1
+blood,K Kalio koncentracijos nustatymas,mmol/l ,K,,1,1
+blood,K Kalio koncentracijos nustatymas,mmolZl,K,,1,1
+blood,K Kalis,mmol/l,K,,1,1
+blood,Kalcis,mmol/L,Ca,,1,1
+blood,Kalcis,mmol/l,Ca,,1,1
+blood,Kalis,mmol/L,K,,1,1
+blood,Kalis,mmol/l,K,,1,1
+blood,Kalis (K),mmol/l,K,,1,1
+blood,Kaulų izofermentai B,%,Kaulų izofermentai B,,1,1
+blood,Kepenų izofermentai L1,%,Kepenų izofermentai L1,,1,1
+blood,Kepenų izofermentai L2,%,Kepenų izofermentai L2,,1,1
+blood,Kraujo grupė,Kraujo grupė,Kraujo grupė,,1,1
+blood,Kreatinkinazė (CK),U/L,CK,,1,1
+blood,LDH Laktatdehidrogenazė,IU/1,LDH,,1,1
+blood,LDH Laktatdehidrogenazė,IU/l,LDH,,1,1
+blood,LDH Laktatdehidrogenazė,U/l,LDH,,1,1
+blood,LIP Lipazės aktyvumo nustatymas,U/l ,LIP,,1,1
+blood,LT3 Laisvo trjodtironino koncentracijos nustatymas,pmol/l,FT3,,1,1
+blood,LT3 Laisvo trjodtironino koncentracijos nustatymas,pmol/l ,FT3,,1,1
+blood,LT4 Laisvo tiroksino koncentracijos nustatymas,pmol/l,FT4,,1,1
+blood,LT4 Laisvo tiroksino koncentracijos nustatymas,pmol/l ,FT4,,1,1
+blood,LUC,% ,LUC%,,1,1
+blood,LUC,*10e9/l ,LUC,,1,1
+blood,LYMPH Limfocitai,% ,LY%,,1,1
+blood,LYMPH Limfocitai,*10e9/l ,LY,,1,1
+blood,"Laboratorinis kiekybinis SARS-CoV-2 antiS, anti-S1, anti-RBD IgG nustatymas (Quantitative immunoassay for detection of SARS-CoV-2 anti-S, anti-S1, anti-RBD J∣gG)",BAU/ml,Anti-SARS-CoV-2 IgM/IgG,,1,1
+blood,Laisvas tiroksinas (FT4),μmol/L,FT4,,1,1
+blood,Laisvas trijodtironinas (FT3),μmol/L,FT3,,1,1
+blood,Laktatdehidrogenazė (LDH),U/L,LDH,,1,1
+blood,MCH (vidutinis hemoglobino kiekis eritrocite),El.,MCH,,1,1
+blood,MCH Vidutinis eritrocitų hemoglobino kiekis,pg ,MCH,,1,1
+blood,MCHC Vidut. eritrocitų hemoglobino koncent.,g/l ,MCHC,,1,1
+blood,MCHC Vidutinė eritrocitų hemoglobino koncentracija,gZl,MCHC,,1,1
+blood,MCV Vidutinis ląstelių tūris,fl ,MCV,,1,1
+blood,MONO Monocitai,% ,MO%,,1,1
+blood,MONO Monocitai,*10e9/l ,MO,,1,1
+blood,MTL Cholesterolis,mmol/l,LDL,,1,1
+blood,MTL Mažo tankio lipoproteinų cholesterolio koncentracijos nustatymas,mmol/l ,LDL,,1,1
+blood,Metamielocitai,%,Metamielocitai%,,1,1
+blood,Mg Magnio koncentracijos nustatymas,mmol/l ,Magnis,,1,1
+blood,Mielocitai,%,Mielocitai%,,1,1
+blood,"Mokamas laboratorinis kiekybinis SARS-CoV-2 anti-S, anti-S1, anti-RBD IgG nustatymas (Quantitative immunoassay for detection of SARS-CoV-2 anti-S, anti-S1, anti-RBD IgG)",BAU/ml ,Anti-SARS-CoV-2 IgM/IgG,,1,1
+blood,NEUT Neutrofilai,% ,NE%,,1,1
+blood,NEUT Neutrofilai,*10e9/l ,NE,,1,1
+blood,NRBC# Branduolėti eritrocitai,*10λ9/I,NRBC,,1,1
+blood,Na Natrio koncentracijos nustatymas,mmol/l ,Na,,1,1
+blood,Natris (Na),mmol/l,Na,,1,1
+blood,Neutrofilai lazdeliniai,%,Neutrofilai lazdeliniai%,,1,1
+blood,Neutrofilai segmentuoti,%,Neutrofilai segmentuoti%,,1,1
+blood,Neutrofilų toksinis gr.,b,Neutrofilų toksinis gr.,,1,1
+blood,Osteokalcinas,μg/L,Osteokalcinas,,1,1
+blood,P Fosforo koncentracijos nustatymas,mmol/l ,P,,1,1
+blood,P-AMYL Kasos amilazės aktyvumo nustatymas,U/l ,P-AMYL,,1,1
+blood,PCT (trombokritas),cl/l,PCT,,1,1
+blood,PDW (trombocitų pasiskirstymas pagal dydį),%,ERROR?,,1,1
+blood,PLT Trombocitai,*10e9/l ,PLT,,1,1
+blood,Plazmocitai,%,Plazmocitai%,,1,1
+blood,Promielocitai,%,Promielocitai%,,1,1
+blood,Protrombino laikas (QUICK),%,Protrombino laikas,,1,1
+blood,RBC Eritrocitai,*10e12/l ,RBC,,1,1
+blood,RDW,% ,RDW-CV,,1,1
+blood,RDW-CV (santykinis plotis eritrocitų kiekio -variacijos koeficiento pasiskirstymas),%,RDW-CV,,1,1
+blood,TEST Testosterono koncentracijos nustatymas,nmol/l,TEST,,1,1
+blood,TEST Testosterono koncentracijos nustatymas,nmol/l ,TEST,,1,1
+blood,TGL Trigliceridai,mmol/l,TRIG,,1,1
+blood,TP Bendro baltymo koncentracijos nustatymas,g/l ,Bendras baltymas,,1,1
+blood,TRIG Trigliceridų koncentracijos nustatymas,mmol/l ,TRIG,,1,1
+blood,TTH Tireotropinio hormono koncentracijos nustatymas,mIU/l ,TTH,,1,1
+blood,TTH Tireotropinio hormono koncentracijos nustatymas,mIUZl,TTH,,1,1
+blood,TTH Tirotropinis hormonas,mIU/l ,TTH,,1,1
+blood,"Tireotropinis hormonas (TSH, TTH)					",mIU/l,TTH,,1,1
+blood,UA Šlapimo rūgšties koncentracijos nustatymas,μmol/l,UA,,1,1
+blood,UREA Šlapalo koncentracijos nustatymas,mmol/l ,UREA,,1,1
+blood,VitB12 Vitamino B12 koncentracijos nustatymas*,pmol/l ,B12,,1,1
+blood,VitD 25-OH Vitamino D koncentracijos nustatymas,nmol/l ,VitD 25-OH,,1,1
+blood,VitD 25-OH Vitamino D koncentracijos nustatymas,μg/l ,VitD 25-OH,TRUE,2.496,2
+blood,VitD 25-OH Vitamino D koncentracjos nustatymas,nmol/l,VitD 25-OH,,1,1
+blood,VitD 25-OH Vitamino D koncentracjos nustatymas,μg/l,VitD 25-OH,TRUE,2.496,2
+blood,VitD Vitaminas D,nmol/l,VitD 25-OH,,1,1
+blood,VitD Vitaminas D,μgZl,VitD 25-OH,TRUE,2.496,2
+blood,Vėžio žymens CA 125 koncentracijos nustatymas,U/ml ,CA 125,,1,1
+blood,Vėžio žymens CA 15-3 koncentracijos nustatymas,U/ml ,CA 15-3,,1,1
+blood,Vėžio žymens CA 19-9 koncentracijos nustatymas,U/ml ,CA 19-9,,1,1
+blood,WBC Leukocitai,*10e9/l ,WBC,,1,1
+blood,Zn Cinko koncentracijos nustatymas,μmo^l,Zn,,1,1
+blood,Zn Cinko koncentracijos nustatymas,μmol/l,Zn,,1,1
+blood,Zn Cinko koncentracijos nustatymas ,μmol/l,Zn,,1,1
+blood,aHBcor Hepatito B viruso antikūnų nustatymas imunofermentiniu metodu,index ,aHBcor,,1,1
+blood,aHBs Hepatito B viruso antikūnų nustatymas imunofermentiniu metodu,mIU/ml ,aHBs,,1,1
+blood,aHCV Hepatito C viruso antikūnų nustatymas,index ,aHCV,,1,1
+blood,alfa amilazė,U/L,alfa amilazė,,1,1
+blood,anti-TPO Antikūnai prieš skydliaukės peroksidazę,U/ml ,ATPO,,1,1
+blood,djCRB Didelio jautrumo CRB koncentracijos nustatymas,mg/l ,CRB,,1,1
+blood,Šarminė fosfatazė,U/L,ALP,,1,1
+blood,Šlapalas (UREA),mmol/l,UREA,,1,1
+blood,ŽIV Žmogaus imunodeficito viruso 1/2 antikūnų ir p24 Ag nustatymas imunofermentiniu metodu,Index ,ŽIV 1/2 antikūnų ir antigeno p24 nustatymas,,1,1
+blood,"Žarnų izofermentai I1, I2, I3",%,"Žarnų izofermentai I1, I2, I3",,1,1
+blood,Cyfra 21-1 Citokeratinas 19,μg/l ,Cyfra 21-1,,1,1
+blood,DHEA-SO4 Dehidroepiandrosterono koncentracijos nustatymas,μg/dl ,DHEA-SO4,,1,1
+blood,DTL Cholesterolis,mmol/l,HDL,,1,1
+blood,E2 Estradiolio koncentracijos nustatymas,pmol/l ,E2,,1,1
+blood,2019-nCoV RNR tyrimas tikralaikės PGR metodu,,ERROR?,,1,1
+blood,BA (bazofilai),10^,ERROR?,,1,1
+blood,CREA Kreatinino koncentracijos nustatymas,CREA Kreatinino koncentracijos nustatymas ^mol/l,ERROR?,,1,1
+blood,FER Feritino koncentracijos nustatymas,μg^,ERROR?,,1,1
+blood,IG (nebrandūs granulocitai),10^,ERROR?,,1,1
+blood,INR*,koef.,ERROR?,,1,1
+blood,LY (limfocitai),10^,ERROR?,,1,1
+blood,MO (monocitai),10^,ERROR?,,1,1
+blood,NE (neutrofilai),10^,ERROR?,,1,1
+blood,PLT (trombocitai),10^,ERROR?,,1,1
+blood,RBC (eritrocitai),10^,ERROR?,,1,1
+blood,Rezus faktorius Rh,D,ERROR?,,1,1
+blood,VitD 25-OH Vitamino D koncentracijos nustatymas,μg^,ERROR?,,1,1
+blood,WBC (leukocitai),10^,ERROR?,,1,1
+blood,###_not_mapped_FSH_###,###_not_mapped_###,FSH,,1,1
+blood,###_not_mapped_HE-4_###,###_not_mapped_###,HE-4,,1,1
+blood,###_not_mapped_Insulinas_###,###_not_mapped_###,Insulinas,,1,1
+blood,###_not_mapped_Kortizolis_###,###_not_mapped_###,Kortizolis,,1,1
+blood,###_not_mapped_Laisvas-PSA_###,###_not_mapped_###,Laisvas PSA,,1,1
+blood,###_not_mapped_Luteinas_###,###_not_mapped_###,Luteinas,,1,1
+blood,###_not_mapped_Progesteronas_###,###_not_mapped_###,Progesteronas,,1,1
+blood,###_not_mapped_Prolactin_###,###_not_mapped_###,Prolactin,,1,1

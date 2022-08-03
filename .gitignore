@@ -138,22 +138,15 @@ dmypy.json
 data/*
 
 #Images
-server/images
+server/images/*
+
+credentials/*
+
+/logs/*
 
 
-test_data_files
-
-/logs/
-
-/notebook/**/*.json
-/notebook/**/*.yaml
-
-#corpus data
 !data/corpus
 !data/mapping
-
-/notebook/survey_parser/conclusions.docx
-
-notebook/data_alanysis/catboost_info
-
-test_data/recognizer_qa
+!data/ocred
+!data/cache
+!data/local_input_copy

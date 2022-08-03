@@ -65,7 +65,7 @@ class PipelineIntermediateTest(unittest.TestCase):
         test_names = [
             "anteja",
             "medicina_practica",
-            "synlab",
+            # "synlab",
         ]
 
         status = []

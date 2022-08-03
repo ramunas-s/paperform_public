@@ -1,0 +1,146 @@
+﻿test_name
+"Tirotropinas (TTH, TSH)"
+WBC (leukocitai)
+RBC (eritrocitai)
+Hgb (hemoglobinas)
+Hct (hematokritas)
+MCV (vidutinis eritrocito tūris)
+MCH (vidutinis eritrocitų hemoglobinas)
+MCHC (vidutinė hemoglobino koncentracija eritrocite)
+Plt (trombocitai)
+"RDW-SD (eritrocitų pasiskirstymo plotis, standartinis nuokrypis)"
+"RDW-CV (eritrocitų pasiskirstymo plotis, koreliacijos koeficientas)"
+PDW (trombocitų pasiskirstymo plotis)
+MPV (vidutinis trombocitų tūris)
+P-LCR (didelių trombocitų santykis)
+PCT (trombokritas)
+NEUT (neutrofilai skaičius)
+% NEUT (neutrofilai procentas)
+LYMPH (limfocitai skaičius)
+% LYMPH (limfocitai procentas)
+MONO (monocitai skaičius)
+% MONO (monocitai procentas)
+EO (eozinofilai skaičius)
+% EO (eozinofilai procentas)
+BASO (bazofilai skaičius)
+% BASO (bazofilai procentas)
+IG (nesubrendę granulocitai skaičius)
+% IG (nesubrendę granulocitai procentas)
+"Tireotropinis hormonas (TSH, TTH)"
+Laisvas trijodtironinas LT3 (FT3)
+Laisvas tiroksinas LT4 (FT4)
+Skydliaukės mikrosominiai antikūnai
+Cholesterolis (CHOL)
+HDL (DTL) cholesterolis
+LDL (MTL) cholesterolis
+Trigliceridai (TG)
+Vitaminas D bendras (25-OH)
+WBC LEUKOCITAI
+NEUTp Neutrofilai
+LYMp Limfocitai
+MONOp Monocitai
+EOSp Eozinofilai
+BASOp Bazofilai
+NEUTc Neutrofilai
+LYMc Limfocitai
+MONOc Monocitai
+EOSc Eozinofilai
+BASOc Bazofilai
+IG# Nebrandus granuliocitai
+IG% Nebrandus granuliocitai
+RBC ERITROCITAI
+HGB HEMOGLOBINAS
+HCT Hematokritas
+MCV Vidutinis eritrocitų tūris
+MCH Vidutinis hemoglobino kiekis eritrocite
+MCHC Vidutinė eritrocitų hemoglobino koncentracija
+RDW-SD Eritrocitų pasiskirstymo plotis
+RDW-CV Eritrocitų pasiskirstymo plotis
+NRBC# Branduolėti eritrocitai
+NRBC% Branduolėti eritrocitai
+PLT TROMBOCITAI
+PDWTrombocitu pasiskirstymo plotis
+MPV Trombocitų vidutinis tūris
+P-LCR Didelių trombocitų frakcija
+PCT Trombokritas
+CRB C reaktyviojo baltymo nustatymas
+2019-nCov igG (S1 RBD) Antikūnai igG prieš SARS-CoV-2
+- vienetais pagal PSO 20/136
+CRB C reaktyvus baltymas
+TTH Tirotropinis hormonas
+2019-nCoV RNR tyrimas tikralaikės PGR metodu
+C-reaktyvus baltymas (CRB) (cito)
+WBC Leukocitai
+NEUT Neutrofilai
+LYMPH Limfocitai
+MONO Monocitai
+EOS Eozinofilai
+BASO Bazofilai
+LUC
+RBC Eritrocitai
+HGB Hemoglobinas
+MCV Vidutinis ląstelių tūris
+MCH Vidutinis eritrocitų hemoglobino kiekis
+MCHC Vidut. eritrocitų hemoglobino koncent.
+RDW
+PLT Trombocitai
+FT4 Laisvas tiroksinas
+TTH Tireotropinio hormono koncentracijos nustatymas
+GLU Gliukozės koncentracijos nustatymas plazmoje
+K Kalio koncentracijos nustatymas
+CREA Kreatinino koncentracijos nustatymas
+GLU Gliukozė
+BIL Bilirubinas
+KET Ketonai
+SG Santykinis tankis
+ERY Eritrocitai
+pH
+PRO Baltymas - albuminas
+UBG Urobilinogenas
+NIT Bakterijos nitritai
+LEU Leukocitai
+HGB (hemoglobinas)
+HCT (hematokritas)
+MCH (vidutinis hemoglobino kiekis eritrocite)
+MCHC (vidutinė hemoglobino koncentracija eritrocituose)
+RDW (eritrocitų pasiskirstymas pagal dydį)
+PLT (trombocitai)
+NE% (neutrofilai %)
+LY% (limfocitai %)
+MO% (monocitai %)
+EO% (eozinofilai %)
+BA% (bazofilai %)
+LUC % (kitos netipinės ląstelės %)
+NE (neutrofilai)
+LY (limfocitai)
+MO (monocitai)
+EO (eozinofilai)
+BA (bazofilai)
+LUC (kitos netipinės ląstelės)
+ŽIV 1/2 antikūnų ir antigeno p24 nustatymas
+HBsAg (Hepatito B paviršinis antigenas)
+Anti - HCV (Antikūnai prieš hepatitą C)
+Gliukozė (GLU) serume
+Alaninaminotransferazė (ALT)
+Aspartataminotransferazė (AST)
+Šlapalas (UREA)
+CRB - C reaktyvus baltymas (CRP)
+Kreatininas (CREA)
+Šarminė fosfatazė (ALP)
+Gama gliutamiltransferazė (GGT)
+Natris (Na)
+Kalis (K)
+Protrombino laikas (QUICK)
+INR*
+Aktyvuotas dalinis tromboplastininis laikas ADTL (DATL)
+Fibrinogenas
+BLD (kraujas)
+BIL (bilirubinas)
+URO (urobilinogenas)
+KET (ketonai)
+PRO (baltymas)
+NIT (bakteriurija)
+GLU (gliukozė)
+SG (santykinis tankis)
+LEU (leukocitai)
+VTC (vitaminas C)

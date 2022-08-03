@@ -6,13 +6,13 @@ from pandas.testing import assert_frame_equal
 from labrep_recognizer.pipeline import initialize_infrastructure, upload_pdf_to_gs, process_single_pdf_in_gs
 
 
-class PipelineIntermediateTest(unittest.TestCase):
+class PipelineTestCase(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         pass
 
     @staticmethod
-    def single_run(test_name, recognizer_infrastructure):
+    def single_lab_rep_test(test_name, recognizer_infrastructure):
         print(f"Testing {test_name}:")
         raw_pdf = "./test_data_files/labrep_recognizer/pdf_examples/" + test_name + ".pdf"
         status = []
@@ -59,7 +59,7 @@ class PipelineIntermediateTest(unittest.TestCase):
 
         return status
 
-    def test_single_instance(self):
+    def test_all_labrep_types(self):
         recognizer_infrastructure = initialize_infrastructure()
 
         test_names = [
@@ -71,7 +71,7 @@ class PipelineIntermediateTest(unittest.TestCase):
         status = []
 
         for test_name in test_names:
-            status += PipelineIntermediateTest.single_run(test_name, recognizer_infrastructure)
+            status += PipelineTestCase.single_lab_rep_test(test_name, recognizer_infrastructure)
 
         df_status = pd.DataFrame(status)
         print(df_status.loc[:, 0:2])

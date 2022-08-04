@@ -1,5 +1,5 @@
 import unittest
-from mock import patch
+from mock import patch, call
 import pandas as pd
 
 from labrep_recognizer.recognition_tools.abbyy_tools import AbbyyTools
@@ -31,7 +31,7 @@ class AbbyyToolsTestCase(unittest.TestCase):
     def test_init(self):
         abbyy_tools = AbbyyTools(AbbyyToolsTestCase.df_spreadsheet)
         extracted_all_fields_expected = ["a0", "a2", "b0", "b2", "c0", "c2", "string_a1", "string_b1", "string_c1"]
-        self.assertEqual(extracted_all_fields_expected, abbyy_tools.extracted_all_fields)
+        self.assertEqual(extracted_all_fields_expected, abbyy_tools._extracted_all_fields)
 
     def test_find_anywhere(self):
         abbyy_tools = AbbyyTools(AbbyyToolsTestCase.df_spreadsheet)
@@ -59,6 +59,7 @@ class AbbyyToolsTestCase(unittest.TestCase):
     def test_find_at_offset(self, find_all_at_offset_mock):
         abbyy_tools = AbbyyTools(AbbyyToolsTestCase.df_spreadsheet)
         self.assertEqual("b_value", abbyy_tools.find_at_offset(["a", "b"], 0, 1))
+        find_all_at_offset_mock.assert_called_once_with(["a", "b"], 0, 1)
 
     @patch("labrep_recognizer.recognition_tools.abbyy_tools.AbbyyTools.find_all_at_offset", return_value=[])
     def test_find_at_offset_failure(self, find_all_at_offset_mock):
@@ -120,3 +121,18 @@ class AbbyyToolsTestCase(unittest.TestCase):
     def test_find_between_keywords(self, find_between_keywords_mock):
         abbyy_tools = AbbyyTools(AbbyyToolsTestCase.df_spreadsheet)
         self.assertEqual("expected_value", abbyy_tools.find_between_keywords("before", "after"))
+        self.assertEqual(2, find_between_keywords_mock.call_count)
+        find_between_keywords_mock.assert_has_calls(
+            [
+                call(
+                    "after",
+                    ["a0", "a2", "b0", "b2", "c0", "c2", "string_a1", "string_b1", "string_c1"],
+                    remove=True,
+                ),
+                call(
+                    "before",
+                    ["a0", "a2", "b0", "b2", "c0", "c2", "string_a1", "string_b1", "string_c1"],
+                    remove=False,
+                ),
+            ]
+        )

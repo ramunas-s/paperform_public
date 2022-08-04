@@ -4,8 +4,8 @@ from copy import copy
 
 class AbbyyTools:
     def __init__(self, df_extract):
-        self.df_extract = df_extract
-        self.extracted_all_fields = list(sorted(set(self.df_extract.to_numpy().flatten())))
+        self._df_extract = df_extract
+        self._extracted_all_fields = list(sorted(set(self._df_extract.to_numpy().flatten())))
 
     def find_at_offset(
         self,
@@ -30,34 +30,34 @@ class AbbyyTools:
             search_strings = (search_strings,)
         found_values = []
         for search_string in search_strings:
-            found_at = np.where(self.df_extract.applymap(lambda cell: search_string in cell).to_numpy())
+            found_at = np.where(self._df_extract.applymap(lambda cell: search_string in cell).to_numpy())
             for i in range(len(found_at[0])):
                 x = found_at[1][i]
                 y = found_at[0][i]
-                found_values.append(self.df_extract.iloc[y + offset_y, x + offset_x])
+                found_values.append(self._df_extract.iloc[y + offset_y, x + offset_x])
         return sorted(list(set(found_values)))
 
     def find_anywhere(self, search_string):
-        return any([search_string in field for field in self.extracted_all_fields])
+        return any([search_string in field for field in self._extracted_all_fields])
 
     def find_till_the_end(self, search_string, remove=False):
-        found_at = [i for i, field in enumerate(self.extracted_all_fields) if search_string in field][0]
-        found_inside_at = self.extracted_all_fields[found_at].find(search_string)
-        found_value = self.extracted_all_fields[found_at][found_inside_at + len(search_string) :].strip()
+        found_at = [i for i, field in enumerate(self._extracted_all_fields) if search_string in field][0]
+        found_inside_at = self._extracted_all_fields[found_at].find(search_string)
+        found_value = self._extracted_all_fields[found_at][found_inside_at + len(search_string) :].strip()
         if remove:
-            self.extracted_all_fields[found_at] = self.extracted_all_fields[found_at][:found_inside_at]
+            self._extracted_all_fields[found_at] = self._extracted_all_fields[found_at][:found_inside_at]
         return found_value
 
     def find_whole_word(self, search_string, remove=False):
-        found_at = [i for i, field in enumerate(self.extracted_all_fields) if search_string in field][0]
-        found_inside_at = self.extracted_all_fields[found_at].find(search_string)
-        found_value = self.extracted_all_fields[found_at][found_inside_at + len(search_string) :].strip().split(" ")[0]
-        found_value_inside_at = self.extracted_all_fields[found_at].find(found_value)
+        found_at = [i for i, field in enumerate(self._extracted_all_fields) if search_string in field][0]
+        found_inside_at = self._extracted_all_fields[found_at].find(search_string)
+        found_value = self._extracted_all_fields[found_at][found_inside_at + len(search_string) :].strip().split(" ")[0]
+        found_value_inside_at = self._extracted_all_fields[found_at].find(found_value)
         found_end_value = found_value_inside_at + len(found_value)
         if remove:
-            self.extracted_all_fields[found_at] = (
-                self.extracted_all_fields[found_at][:found_inside_at]
-                + self.extracted_all_fields[found_at][found_end_value:]
+            self._extracted_all_fields[found_at] = (
+                self._extracted_all_fields[found_at][:found_inside_at]
+                + self._extracted_all_fields[found_at][found_end_value:]
             )
 
         return found_value
@@ -74,6 +74,6 @@ class AbbyyTools:
     # TODO refactor to avoid copying
     def find_between_keywords(self, before, after):
         # TODO refactor to avoid copying
-        extracted_copy = copy(self.extracted_all_fields)
+        extracted_copy = copy(self._extracted_all_fields)
         _ = self.find_till_the_end_in_copy(after, extracted_copy, remove=True)
         return self.find_till_the_end_in_copy(before, extracted_copy, remove=False)

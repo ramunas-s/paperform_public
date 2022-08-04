@@ -147,10 +147,12 @@ credentials/*
 
 /logs/*
 
-test_data_files/labrep_recognizer/pdf_recognized
 
-!data/corpus
-!data/mapping
-!data/ocred
-!data/cache
-!data/local_input_copy
+test_data_files
+# test_data_files/labrep_recognizer/pdf_recognized
+
+# !data/corpus
+# !data/mapping
+# !data/ocred
+# !data/cache
+# !data/local_input_copy

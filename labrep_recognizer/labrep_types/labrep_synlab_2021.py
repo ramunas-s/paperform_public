@@ -44,7 +44,12 @@ class LabrepSynlab2021(LabrepInterface):
         # Debug
         # self.google_tools.draw_page_img(page_no)
 
-        labels_key_current_line = [["Paciento", "pavardė", "vardas", ":"], ["Paciento", "pavardė", ","], ["Paciento", "pavardė"], ["Paciento"]]
+        labels_key_current_line = [
+            ["Paciento", "pavardė", "vardas", ":"],
+            ["Paciento", "pavardė", ","],
+            ["Paciento", "pavardė"],
+            ["Paciento"],
+        ]
         labels_key_below_line = [["Gimimo", "data"], ["Gimimo"]]
         right_boundary = 0.50
         line_separator = " "

@@ -9,7 +9,6 @@ class LabrepMedicinaPractica2021(LabrepInterface):
         super().__init__(*args, **kwargs)
         # self.google_tools.debug_draw_image = False
 
-
     def medicina_practica_2021_corrector_rezult(self, s):
         if isinstance(s, str):
             s = s.replace("∕", "/")
@@ -39,10 +38,13 @@ class LabrepMedicinaPractica2021(LabrepInterface):
         return self.abbyy_tools.find_at_offset("Lytis:", 1, 0)
 
     def header_sample_collected_time_raw(self):
-        found_value = self.google_tools.gd_get_text_to_right_from_keywords_all_pages(["Mėginio", "priėmimo", "data", "ir",
-                                                                               "laikas"], boundary_x=0.73,
-                                                                           boundary_relative=False, offset_y=0,
-                                                                           line_separator=" ")
+        found_value = self.google_tools.gd_get_text_to_right_from_keywords_all_pages(
+            ["Mėginio", "priėmimo", "data", "ir", "laikas"],
+            boundary_x=0.73,
+            boundary_relative=False,
+            offset_y=0,
+            line_separator=" ",
+        )
         return found_value[:16].replace(".", "-")
 
     def header_laboratory_report_id(self):
@@ -154,6 +156,5 @@ class LabrepMedicinaPractica2021(LabrepInterface):
         df_details_normalized_corrected = df_details_normalized_corrected[
             ~df_details_normalized_corrected["test_name"].isin(test_names_to_exclude)
         ]
-
 
         return df_details_normalized_corrected

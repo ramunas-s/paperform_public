@@ -21,9 +21,7 @@ class ImageDebug:
             )
             image_size = (int(self.zoom_factor * xy_zoom_ratio), int(self.zoom_factor))
             print(f"Initiating image size: {image_size}")
-            self.im = PIL.Image.new(
-                mode="RGB", size=image_size, color=(238, 232, 213)
-            )
+            self.im = PIL.Image.new(mode="RGB", size=image_size, color=(238, 232, 213))
             self.draw = PIL.ImageDraw.Draw(self.im)
             for token in self.google_ocred_document.pages[page_index].tokens:
                 self.draw_token_polygon_img(page_index, token, (0, 128, 128))
@@ -122,7 +120,11 @@ class ImageDebug:
                     ]
 
                     calling_function_element = traceback_list[calling_interface_index[0] + 1]
-                    image_name = calling_function_element.filename.split("/")[-1].split(".")[0] + "-" + calling_function_element.name
+                    image_name = (
+                        calling_function_element.filename.split("/")[-1].split(".")[0]
+                        + "-"
+                        + calling_function_element.name
+                    )
 
                 except:
                     image_name = "image"

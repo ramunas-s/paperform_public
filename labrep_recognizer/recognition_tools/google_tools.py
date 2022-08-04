@@ -269,7 +269,6 @@ class GoogleTools(ImageDebug):
         # Did not exit on any sucessfull combination, so crashing
         assert False
 
-
     def gd_find_by_text(self, page_index, search_string):
         found_at_start = list(find_all_strings(search_string, self.google_ocred_document.text))
         found_at_end = list(map(lambda x: x + len(search_string), found_at_start))

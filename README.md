@@ -13,7 +13,7 @@ Dependencies:
 
 Run unit tests:
 - Install python v.3.8
-- Create virtual environment
+- Create virtual environment, activate
 - Install requirements ```pip install -r requirements.txt```
 - Run unit tests ```./run_unit_tests.sh``` or ```python -m unittest discover tests/unit_tests```
 

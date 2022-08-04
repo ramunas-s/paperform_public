@@ -38,8 +38,8 @@ class LabrepInterface:
             try:
                 header[field] = function()
             except (
-                    IndexError,
-                    AssertionError,
+                IndexError,
+                AssertionError,
             ):
                 header[field] = ""
 
